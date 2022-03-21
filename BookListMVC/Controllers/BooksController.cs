@@ -53,6 +53,7 @@ namespace BookListMVC.Controllers
                 }
                 else
                 {
+                    //update
                     _db.Books.Update(Book);
                 }
                 _db.SaveChanges();
